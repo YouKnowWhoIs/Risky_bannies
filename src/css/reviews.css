@@ -168,8 +168,8 @@ ul {
 
   .reviews-container {
     max-width: 1280px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .reviews-item2 {
@@ -182,11 +182,27 @@ ul {
   }
 
   .reviews-item {
-    width: 610px;
+    width: 530px;
     margin: 0;
   }
 
   .reviews-item-review {
-    max-width: 542px;
+    max-width: 468px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews-container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .reviews-item {
+    width: 610px;
+  }
+
+  .reviews-item-review {
+    max-width: 540px;
   }
 }
