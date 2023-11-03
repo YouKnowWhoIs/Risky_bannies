@@ -110,6 +110,10 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  .reviews {
+    padding: 100px 0;
+  }
+
   .reviews-container {
     max-width: 768px;
     padding-left: 32px;
@@ -154,5 +158,35 @@ ul {
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews {
+    padding: 150px 0;
+  }
+
+  .reviews-container {
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .reviews-item2 {
+    display: block;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .reviews-item {
+    width: 610px;
+    margin: 0;
+  }
+
+  .reviews-item-review {
+    max-width: 542px;
   }
 }
