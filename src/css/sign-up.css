@@ -1,8 +1,11 @@
+
+
 .sign-up-wrap {
-    padding-top: 80px;
+     padding-top: 80px;
 }
 
 .sign-up-title {
+   
     color: #FFF;
     font-size: 28px;
     font-weight: 500;
@@ -41,6 +44,7 @@
     margin-bottom: 8px;
     height: 46px;
     width: 100%;
+    opacity: 0.7;
 }
 
 .sign-up-input::placeholder {
@@ -61,6 +65,7 @@
     margin-bottom: 40px;
     width:100%;
     resize: none;
+    opacity:0.7;
 }
 
 .sign-up-message::placeholder {
@@ -85,6 +90,7 @@
     line-height: 1.25;
     text-transform: uppercase;
     width:100%;
+    
 }
 
 .private-policy {
@@ -103,4 +109,105 @@
 
 .img-wrap {
     display: none;
+}
+
+@media screen and (min-width:375px) {
+    .container {
+        width: 375px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sign-up-btn {
+        
+    }
+
+    .private-policy {
+        width: 335px;
+    }
+
+    .img-wrap {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+        .sign-up-wrap {
+            padding-top: 100px;
+        }
+
+    .sign-up-btn {
+        padding: 16px 216px;
+        width:479px;
+        
+    }
+
+    .private-policy {
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 12px;
+        line-height: 1.33;
+        width: 100%;
+    }
+
+    .img-wrap {
+        display: none;
+    }
+
+    .sign-up-title {
+
+        font-size: 48px;
+        line-height: 1.13;
+        letter-spacing: -0.04em;
+
+    }
+
+    .sign-up-span {
+
+        font-size: 48px;
+        line-height: 1.13;
+        letter-spacing: -0.04em;
+    }
+
+    .sign-up-descr {
+
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        width: 480px;
+        margin-bottom: 40px;
+    }
+
+        .sign-up-input{
+        font-size: 16px;
+        line-height: 1.25;
+        width: 480px;
+        }
+
+        .sign-up-message {
+                    font-size: 16px;
+                    line-height: 1.25;
+                    width: 480px;
+                }
+        
+
+                .private-policy {
+                    color: rgba(255, 255, 255, 0.50);
+                    font-size: 14px;
+                    line-height: 1.28;
+                    width:480px;
+                }
+
+                 .private-policy-link {
+                     font-size: 14px;
+                     line-height: 1.28;
+                     
+
+                 }
+    
 }
