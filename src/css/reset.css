@@ -16,7 +16,7 @@ ul {
 }
 
 a {
-  color: indianred;
+  color: inherit;
   text-decoration: none;
   font-style: normal;
 }
@@ -40,8 +40,12 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   padding: 20px 20px;
+  background-image: url(../img/header/Graphic.png);
+  background-repeat: repeat;
+  background-position: center;
 }
 .container {
   max-width: 335px;
   margin: 0 auto;
+  padding: 0 20px;
 }
