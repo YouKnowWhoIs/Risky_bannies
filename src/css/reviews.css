@@ -108,3 +108,51 @@ ul {
 .reviews-item2 {
   display: none;
 }
+
+@media screen and (min-width: 768px) {
+  .reviews-container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1.125;
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+
+  .reviews-item {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .reviews-item-review {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+    max-width: 572px;
+  }
+
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews-item-stars,
+  .reviews-item-stars-last {
+    width: 20px;
+    height: 20px;
+  }
+
+  .reviews-item-subtitle {
+    line-height: 1.4;
+  }
+
+  .reviews-item-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.28px;
+  }
+}
