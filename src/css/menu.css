@@ -52,7 +52,7 @@ img {
   color: #121212;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -98,18 +98,18 @@ img {
     width: 480px;
   }
 
+  .menu-icon-close {
+    right: 32px;
+  }
+
   .mob-menu-list {
-    padding: 0;
+    padding: 0 64px;
     margin-top: 232px;
     margin-bottom: 114px;
   }
 
   .mob-menu-item:not(:last-child) {
     margin-bottom: 28px;
-  }
-
-  .mob-menu-item {
-    margin-left: 64px;
   }
 
   .img-clock-menu {
