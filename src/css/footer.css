@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 375px;
+
+}
+
+
+.footer{
+    
+    background-color: #121212;
+    background-image: url(../img/header/Graphic-mobail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+   
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/header/Graphic-mobail.png);
+    }
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    
+}
+
+.icon-footer{
+    fill: white;
+}
+
+a:hover,
+a:active {
+    color: #BEA69E;
+}
+
+.footer-svg{
+    margin-bottom: 16px;
+}
+
+.logo .link-f{
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.social-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 75px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.footer-ul li {
+    margin-bottom: 14px;
+}
+
+.footer-input{
+    width: 267px;
+    height: 60px;
+    border-radius: 12px;
+    padding-left: 18px;
+    
+    
+}
+
+.input-footer-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+input {
+    appearance: none;
+    border: none;
+    
+}
+
+/* скидання базових стилів кнопки  */
+
+button,
+input,
+optgroup,
+select,
+textarea{
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    color: inherit;
+}
+
+.footer-input-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background: #1D1D1D;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    
+}
+
+
+/*  якщо не подобається можу прибрати чи замінити на інше */
+.footer-input-button:hover,
+.footer-input-button:active {
+   
+    color: black;
+    background:  white;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.PrivacyPolicy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 20px;
+
+}
+
+.right{
+    text-align: left;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: auto;
+        padding: 0;
+    }
+}
+
+
+@media screen and (min-width: 376px) {
+    .container {
+        width: auto;
+    }
+}
+
+/* tablet----tablet----tablet---tablet-- */
+
+
+@media screen and (min-width: 768px) {
+
+    .footer {
+    
+        background-image: url(../img/header/Graphic-tablet.png);
+    }
+
+    .footer-ul li{
+        margin-bottom: 14px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/header/Graphic-tablet.png);
+        }
+    }
+
+
+    .container {
+        max-width: 768px;
+        width: auto;
+        padding: 0 32px;
+        margin: 0 auto;
+       
+    }
+
+    .grid {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto 1fr;
+        gap: 50px;
+
+        
+    }
+
+    .logo{
+        padding-top: 0;
+        
+    }
+    
+
+    .footer-svg {
+        margin-bottom: 25px;
+    }
+
+
+    .social-navigation{
+        gap: 25px;
+    }
+
+
+
+    .footer-input{
+        width: 178px;
+        height: 60px;
+    }
+
+   .PrivacyPolicy{
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 18px;
+   }
+
+
+   
+}
+
+/* pc---pc----pc----pc----pc----pc--- */
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+        
+    }
+
+    .logo .link-f {
+        margin-bottom: 10px;
+    }
+
+    .footer-ul li {
+        margin-bottom: 20px;
+
+    }
+
+    .footer {
+
+        background-image: url(../img/header/Graphic-desctop.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/header/Graphic-desctop.png);
+        }
+    }
+
+    .grid {
+        display: flex;
+        gap: auto;
+
+
+    }
+
+    .social-navigation{
+        margin-left: auto;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .input{
+        margin-left: auto;
+
+    }
+
+    .footer-input{
+        width: 216px;
+    }
+
+    .input-footer-form{
+        gap: 16px;
+    }
+
+
+
+    
+    
+}
+
+
+
+
+
+
