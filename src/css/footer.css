@@ -194,6 +194,11 @@ input:focus {
         background-image: url(../img/header/Graphic-tablet.png);
     }
 
+    .footer-ul li{
+        margin-bottom: 14px;
+
+    }
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -266,6 +271,11 @@ input:focus {
         margin-bottom: 10px;
     }
 
+    .footer-ul li {
+        margin-bottom: 20px;
+
+    }
+
     .footer {
 
         background-image: url(../img/header/Graphic-desctop.png);
@@ -288,6 +298,7 @@ input:focus {
 
     .social-navigation{
         margin-left: auto;
+        gap: 50px;
     }
 
     .input{
@@ -297,6 +308,10 @@ input:focus {
 
     .footer-input{
         width: 216px;
+    }
+
+    .input-footer-form{
+        gap: 16px;
     }
 
 
