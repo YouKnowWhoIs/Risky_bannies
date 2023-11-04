@@ -15,18 +15,13 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
 }
 
 a {
-  color: white;
+  color: inherit;
   text-decoration: none;
   font-style: normal;
-  transition: color 0.2s;
-  line-height: 1;
-  padding: 0;
-  margin: 0;
-  border: none; 
+  display: block;
 }
 
 button {
@@ -49,13 +44,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-
-
 .container {
   max-width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 
