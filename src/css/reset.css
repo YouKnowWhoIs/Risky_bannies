@@ -40,6 +40,25 @@ body {
   color: white;
   font-weight: 400;
   letter-spacing: 0.02em;
+  background-image: url('../img/header/Graphic-mobail.png');
+  background-repeat: repeat;
+  background-position: center;
+}
+
+@media ((min-width: 768px) and (max-width: 1279px)) {
+  body {
+    background-image: url('../img/header/Graphic-tablet.png');
+  }
+} 
+@media ((min-width: 1280px) and (max-width: 1439px)) {
+  body {
+    background-image: url('../img/header/Graphic-desctop.png');
+  }
+}
+@media ((min-width: 1440px)) {
+  body {
+    background-image: url('../img/header/Graphic-desctop.png');
+  }
 }
 .container {
   max-width: 335px;

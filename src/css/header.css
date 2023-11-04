@@ -9,6 +9,9 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: var(--black, #121212);
 }
+.header {
+    padding: 20px 0 0 0;
+}
 .list-icons-header {
     display: flex;
     flex-direction: row;
@@ -68,11 +71,11 @@
     .container {
         max-width: 704px;
     }
-    body {
-        padding: 20px 32px;
-    }
     .circle {
         display: none;
+    }
+    .header {
+        padding: 0;
     }
     .button-header {
         display: block;
@@ -123,9 +126,6 @@
 
     .container {
         max-width: 1080px;
-    }
-    body {
-        padding: 20px 32px;
     }
     .circle {
         display: none;
@@ -193,9 +193,6 @@
 
     .container {
         max-width: 1080px;
-    }
-    body {
-        padding: 20px 32px;
     }
     .circle {
         display: none;
