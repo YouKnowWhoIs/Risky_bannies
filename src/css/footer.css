@@ -16,11 +16,11 @@
 .footer{
     
     background-color: #121212;
-    /* треба вставити фонове зображення */
-    background-image: url(../img/header/Graphic.png);
+    background-image: url(../img/header/Graphic-mobail.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-top: 1px solid rgba(255, 255, 255, .2);
    
 }
 
@@ -28,7 +28,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .footer {
-        background-image: url(../img/header/Graphic.png);
+        background-image: url(../img/header/Graphic-mobail.png);
     }
 }
 
@@ -55,6 +55,7 @@ a:active {
 
 .logo .link-f{
     margin-bottom: 6px;
+    text-transform: uppercase;
 }
 
 .social-navigation {
@@ -133,12 +134,19 @@ button {
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
+    transition: box-shadow 0.3s ease;
     
 }
 
+
+/*  якщо не подобається можу прибрати чи замінити на інше */
 .footer-input-button:hover,
 .footer-input-button:active {
-    color: #BEA69E;
+    box-shadow: 0 0 5px #BEA69E;
+}
+
+input:focus {
+    outline: none;
 }
 
 .PrivacyPolicy{
@@ -155,7 +163,7 @@ button {
 }
 
 .right{
-    text-align: right;
+    text-align: left;
     justify-content: flex-end;
     display: flex;
 }
@@ -179,10 +187,23 @@ button {
 /* tablet----tablet----tablet---tablet-- */
 
 
-/* не дороблено забагато часу пішлло на пошук чому футер і все іншще має дивний розмір */
-
 @media screen and (min-width: 768px) {
-.container {
+
+    .footer {
+    
+        background-image: url(../img/header/Graphic-tablet.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/header/Graphic-tablet.png);
+        }
+    }
+
+
+    .container {
         max-width: 768px;
         width: auto;
         padding: 0 32px;
@@ -193,8 +214,8 @@ button {
     .grid {
         padding-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        grid-template-columns: auto auto 1fr;
+        gap: 50px;
 
         
     }
@@ -203,9 +224,6 @@ button {
         padding-top: 0;
         
     }
-    
-
-
     
 
     .footer-svg {
@@ -226,6 +244,8 @@ button {
 
    .PrivacyPolicy{
     padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 18px;
    }
 
 
@@ -237,11 +257,49 @@ button {
 @media screen and (min-width: 1280px) {
 
     .container {
-        width: 1440px;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 1158px;
+        max-width: 1280px;
+        padding: 0 100px;
+        
     }
+
+    .logo .link-f {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+
+        background-image: url(../img/header/Graphic-desctop.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .footer {
+            background-image: url(../img/header/Graphic-desctop.png);
+        }
+    }
+
+    .grid {
+        display: flex;
+        gap: auto;
+
+
+    }
+
+    .social-navigation{
+        margin-left: auto;
+    }
+
+    .input{
+        margin-left: auto;
+
+    }
+
+    .footer-input{
+        width: 216px;
+    }
+
+
 
     
     
