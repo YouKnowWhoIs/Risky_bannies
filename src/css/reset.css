@@ -7,18 +7,26 @@ h5,
 h6,
 p {
   margin: 0;
+  text-decoration: none;
+  padding: 0;
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 a {
-  color: indianred;
+  color: white;
   text-decoration: none;
   font-style: normal;
+  transition: color 0.2s;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  border: none; 
 }
 
 button {
@@ -39,9 +47,15 @@ body {
   color: white;
   font-weight: 400;
   letter-spacing: 0.02em;
-  padding: 20px 20px;
+  
 }
+
+
 .container {
   max-width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
+
+
