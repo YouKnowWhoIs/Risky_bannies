@@ -1,12 +1,58 @@
+.block {
+  padding: 20px 0;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .block-go {
   color: #bea69e;
   font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.56px;
   text-transform: uppercase;
 }
 .block-color {
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .block {
+    padding: 24px 0;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .block-go {
+    font-size: 40px;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.8px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .block {
+    padding: 24px 0;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .block-go {
+    font-size: 59px;
+    line-height: 1.08; /* 108.475% */
+    letter-spacing: -1.18px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .block {
+    padding: 24px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .block-go {
+    font-size: 59px;
+    line-height: 1.08; /* 108.475% */
+    letter-spacing: -1.18px;
+  }
 }
