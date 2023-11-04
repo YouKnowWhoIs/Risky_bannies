@@ -31,7 +31,7 @@
     margin-bottom: 40px;
 }
 
-.sign-up-form {}
+/* .sign-up-form {} */
 
 .sign-up-input {
     display: flex;
@@ -54,7 +54,7 @@
 
 }
 
-.sign-up-textarea {}
+
 
 .sign-up-message {
     padding-top: 14px;
@@ -118,9 +118,7 @@
         padding-right: 15px;
     }
 
-    .sign-up-btn {
-        
-    }
+   
 
     .private-policy {
         width: 335px;
