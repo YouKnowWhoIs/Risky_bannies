@@ -16,9 +16,10 @@ ul {
 }
 
 a {
-  color: indianred;
+  color: inherit;
   text-decoration: none;
   font-style: normal;
+  display: block;
 }
 
 button {
@@ -40,7 +41,9 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
+
 .container {
   max-width: 335px;
   margin: 0 auto;
+  padding: 0 20px;
 }
