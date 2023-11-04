@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.container {
+.footer-container {
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
@@ -101,17 +101,8 @@ input {
 
 /* скидання базових стилів кнопки  */
 
-button,
-input,
-optgroup,
-select,
-textarea{
-    color: #121212;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-}
+
+
 
 button {
     background: none;
@@ -176,7 +167,7 @@ input:focus {
 
 
 @media screen and (max-width: 320px) {
-    .container {
+    .footer-container {
         width: auto;
         padding: 0;
     }
@@ -184,7 +175,7 @@ input:focus {
 
 
 @media screen and (min-width: 376px) {
-    .container {
+    .footer-container {
         width: auto;
     }
 }
@@ -213,7 +204,7 @@ input:focus {
     }
 
 
-    .container {
+    .footer-container {
         max-width: 768px;
         width: auto;
         padding: 0 32px;
@@ -266,7 +257,7 @@ input:focus {
 
 @media screen and (min-width: 1280px) {
 
-    .container {
+    .footer-container {
         max-width: 1280px;
         padding: 0 100px;
         
