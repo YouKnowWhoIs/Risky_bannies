@@ -1,0 +1,302 @@
+.section-one {
+    /* margin: 0 auto; */
+    padding: 20px 20px 0 20px;
+    padding-bottom: 80px;
+    background-image: url('../img/header/Graphic-mobail.png');
+    background-repeat: repeat;
+    background-position: center;
+}
+.box-section-one {
+    border-radius: 30px;
+    background-color: #1D1D1D;
+    padding-top: 40px;
+}
+.stars-hero {
+    fill: #BEA69E;
+}
+.main-title {
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px; 
+    letter-spacing: -1.6px;
+}
+.photography {
+    color: #BEA69E;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+}
+.paragraf-section-one {
+    line-height: 18px; 
+    letter-spacing: -0.8px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.list-students-section-one {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.option-list-students {
+    border-radius: 100%;
+    margin-right: -10px;
+}
+.one-img {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+.two-img {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.three-img {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.text-after-icons {
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    width: 67px;
+}
+.our-students {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    gap: 4px;
+}
+.icon-stars {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #BEA69E;
+}
+.tumb-section-one {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+}
+.list-reviews-section-one {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+}
+.text {
+    color: rgba(255, 255, 255, 0.50);
+    line-height: 18px; 
+    letter-spacing: -0.56px;
+}
+.amount {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: -0.64px;
+}
+.amount-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.image-photographer {
+    margin-top: 31px;
+}
+picture {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+@media ((min-width: 768px) and (max-width: 1279px)) {
+
+    /*section one*/  
+
+    .container {
+        max-width: 704px;
+    }
+    .section-one {
+        /* max-width: 704px; */
+        padding-top: 40px;
+        padding-bottom: 100px;
+        background-image: url('../img/header/Graphic-tablet.png');
+    }
+    .main-title {
+        width: calc((100% - 91px)/1);
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 64px; /* 106.667% */
+        letter-spacing: -0.8px;
+    }
+    .photography {
+        color: #BEA69E;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -0.8px;
+        font-style: italic;
+    }
+    .box-section-one {
+        padding: 64px 32px 0 32px;
+    }
+    .paragraf-section-one {
+        width: calc((100% - 215px)/1);
+    }
+    .students-and-reviews {
+        display: flex;
+        flex-direction: row;
+    }
+    .our-students {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 22px;
+    }
+    .link-icon {
+        display: flex;
+        align-items: flex-start;
+    }
+    .image-photographer {
+        width: calc((100% - 248px)/1);
+        margin-bottom: 0;
+    }
+
+}
+
+@media ((min-width: 1280px) and (max-width: 1439px)) {
+
+    .container {
+        max-width: 1080px;
+    }
+    .section-one {
+        padding-top: 80px;
+        padding-bottom: 150px;
+        /* max-width: 1080px; */
+        background-image: url('../img/header/Graphic-desctop.png');
+    }
+    .section-one {
+        padding: 0 auto;
+    }
+    .main-title {
+        width: 100%;
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 68px; /* 106.667% */
+        letter-spacing: -2.56px;
+    }
+    .new-box-section {
+        margin-right: 20px;
+    }
+    .photography {
+        color: #BEA69E;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -0.8px;
+        font-style: italic;
+    }
+    .box-section-one {
+        padding: 80px 50px 0 50px;
+    }
+    .paragraf-section-one {
+        width: 418px;
+    }
+    .tumb-section-one {
+        margin-top: 136px;
+    }
+    .students-and-reviews {
+        display: flex;
+        flex-direction: row;
+    }
+    .our-students {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 22px;
+    }
+    .link-icon {
+        display: flex;
+        align-items: flex-start;
+    }
+    .image-photographer {
+        margin: 0;
+    }
+    .image-and-tumb {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+        max-width: 1240px;
+    }
+    .section-one {
+        /* margin: 0 auto; */
+        padding-top: 80px;
+        padding-bottom: 150px;
+        background-image: url('../img/header/Graphic-desctop.png');
+    }
+    /* .section-one {
+        max-width: 1240px;
+    } */
+    .main-title {
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 68px; /* 106.25% */
+        letter-spacing: -2.56px;
+    }
+    .new-box-section {
+        margin-right: 130px;
+    }
+    .photography {
+        color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 64px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 68px;
+        letter-spacing: -2.56px;
+    }
+    .box-section-one {
+        padding: 80px 100px 0 50px;
+    }
+    .paragraf-section-one {
+        width: 418px;
+    }
+    .tumb-section-one {
+        margin-top: 136px;
+    }
+    .students-and-reviews {
+        display: flex;
+        flex-direction: row;
+    }
+    .our-students {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 22px;
+    }
+    .link-icon {
+        display: flex;
+        align-items: flex-start;
+    }
+    .image-photographer {
+        margin: 0;
+    }
+    .image-and-tumb {
+        display: flex;
+        flex-direction: row;
+    }
+}
