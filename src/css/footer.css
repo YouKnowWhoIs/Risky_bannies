@@ -95,6 +95,7 @@ a:active {
 
 input {
     appearance: none;
+    border: none;
     
 }
 
@@ -299,6 +300,7 @@ input:focus {
     .social-navigation{
         margin-left: auto;
         gap: 50px;
+        margin-bottom: 50px;
     }
 
     .input{
