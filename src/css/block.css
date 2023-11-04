@@ -1,7 +1,10 @@
 .block {
   padding: 20px 0;
-  width: 375px;
+  width: 320px;
   margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: none;
+  border-right: none;
 }
 
 .block-go {
@@ -10,15 +13,25 @@
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  position: relative;
 }
+
 .block-color {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) {
+  .block {
+    padding: 20px 0;
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .block {
     padding: 24px 0;
-    max-width: 768px;
+    width: 768px;
     margin: 0 auto;
   }
 
@@ -29,10 +42,10 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .block {
     padding: 24px 0;
-    max-width: 1280px;
+    width: 1280px;
     margin: 0 auto;
   }
 
@@ -43,10 +56,10 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .block {
     padding: 24px 0;
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
   }
 
