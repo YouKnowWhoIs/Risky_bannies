@@ -1,5 +1,9 @@
 /*header*/
-
+.container-header {
+    max-width: 335px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .box-header {
     display: flex;
     flex-direction: row;
@@ -14,7 +18,7 @@
 .box-header-main {
     display: flex;
 }
-.box-header-main.container {
+.box-header-main.container-header {
     padding: 0;
 }
 .header {
@@ -79,7 +83,7 @@
 {
      /*header*/
 
-    .container {
+    .container-header {
         max-width: 704px;
     }
     .circle {
@@ -130,7 +134,7 @@
 
 @media ((min-width: 1280px) and (max-width: 1440px)) {
 
-    .container {
+    .container-header {
         max-width: 1080px;
     }
     .circle {
@@ -199,7 +203,7 @@
 }
 @media (min-width: 1440px){
 
-    .container {
+    .container-header {
         max-width: 1240px;
     }
     .circle {

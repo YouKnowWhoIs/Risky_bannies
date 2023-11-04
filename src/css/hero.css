@@ -119,7 +119,7 @@ picture {
 
     /*section one*/  
 
-    .container {
+    .container-header {
         max-width: 704px;
     }
     .section-one {
@@ -172,7 +172,7 @@ picture {
 
 @media ((min-width: 1280px) and (max-width: 1439px)) {
 
-    .container {
+    .container-header {
         max-width: 1080px;
     }
     .section-one {
@@ -236,7 +236,7 @@ picture {
 
 @media (min-width: 1440px) {
 
-    .container {
+    .container-header {
         max-width: 1240px;
     }
     .section-one {
