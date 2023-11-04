@@ -1,0 +1,12 @@
+.block-go {
+  color: #bea69e;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+.block-color {
+  color: #fff;
+}
