@@ -81,7 +81,11 @@ a:active {
     height: 60px;
     border-radius: 12px;
     padding-left: 18px;
-    
+    color: #121212;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
     
 }
 
@@ -99,7 +103,7 @@ input {
     
 }
 
-/* скидання базових стилів кнопки  */
+
 
 
 
@@ -163,6 +167,8 @@ input:focus {
     justify-content: flex-end;
     display: flex;
 }
+
+
 
 
 
@@ -275,6 +281,7 @@ input:focus {
     .footer {
 
         background-image: url(../img/header/Graphic-desctop.png);
+        background-position: center bottom;
     }
 
     @media (min-device-pixel-ratio: 2),
