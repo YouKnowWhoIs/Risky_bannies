@@ -14,41 +14,51 @@
     <main>
       <div class="mob-menu is-open">
         <div class="mob-menu-wrap">
-          <div>
-            <button type="button" class="menu-close">
-              <svg class="menu-icon-close" width="32" height="32">
-                <use href="../img/menu/symbol-defs-menu.svg#icon-close"></use>
-              </svg>
-            </button>
-            <ul class="mob-menu-list">
-              <li class="mob-menu-item">
-                <a class="mob-menu-link-about" href="">About us</a>
-              </li>
-              <li class="mob-menu-item">
-                <a class="mob-menu-link" href="">Our courses</a>
-              </li>
-              <li class="mob-menu-item item-contacts">
-                <a class="mob-menu-link" href="">Our mentors</a>
-              </li>
-              <li class="mob-menu-item">
-                <a class="mob-menu-link" href="">Reviews</a>
-              </li>
-              <li class="mob-menu-item">
-                <a class="mob-menu-link" href="">contacts</a>
-              </li>
-            </ul>
-          </div>
-          <img
-            srcset="
-              ../img/menu/clock-menu-mobail.jpg    1x,
-              ../img/menu/clock-menu-mobail@2x.jpg 2x
-            "
-            src="../img/menu/clock-menu-mobail.jpg"
-            alt="clock-menu"
-            class="img-clock-menu"
-            width="329px"
-            height="218"
-          />
+          <button type="button" class="menu-close">
+            <svg class="menu-icon-close" width="32" height="32">
+              <use href="../img/menu/symbol-defs-menu.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link-about" href="">About us</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Our courses</a>
+            </li>
+            <li class="mob-menu-item item-contacts">
+              <a class="mob-menu-link" href="">Our mentors</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Reviews</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">contacts</a>
+            </li>
+          </ul>
+          <picture>
+            <source
+              srcset="
+                ../img/menu/clock-menu-tablet.jpg    1x,
+                ../img/menu/clock-menu-tablet@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ../img/menu/clock-menu-mobail.jpg    1x,
+                ../img/menu/clock-menu-mobail@2x.jpg 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              src="../img/menu/clock-menu-tablet.jpg"
+              alt="clock-menu"
+              class="img-clock-menu"
+              width="476px"
+              height="480px"
+            />
+          </picture>
         </div>
       </div>
     </main>

@@ -52,9 +52,13 @@ img {
   color: #121212;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+.mob-menu-link-about:hover,
+.mob-menu-link-about:focus {
+  font-weight: 700;
 }
 
 .mob-menu-link {
@@ -66,22 +70,15 @@ img {
   text-transform: uppercase;
 }
 
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  font-weight: 700;
+}
+
 .img-clock-menu {
   height: 329px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .is-open {
   opacity: 1;
   visibility: visible;
@@ -94,4 +91,28 @@ img {
 
 .menu-icon-close {
   stroke: black;
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu-wrap {
+    width: 480px;
+  }
+
+  .mob-menu-list {
+    padding: 0;
+    margin-top: 232px;
+    margin-bottom: 114px;
+  }
+
+  .mob-menu-item:not(:last-child) {
+    margin-bottom: 28px;
+  }
+
+  .mob-menu-item {
+    margin-left: 64px;
+  }
+
+  .img-clock-menu {
+    height: 480px;
+  }
 }
