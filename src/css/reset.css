@@ -42,6 +42,7 @@ body {
   color: white;
   font-weight: 400;
   letter-spacing: 0.02em;
+  letter-spacing: 0;
 }
 
 .container {
@@ -49,5 +50,3 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-
