@@ -1,9 +1,9 @@
-/* ul {
+ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
-} */
+}
 
 /** --------------------MOBILE------------------- */
 
@@ -19,6 +19,8 @@
 .aboutus {}
 
 .aboutus-title {
+    width: 114px;
+    height: 32px;
     color: #FFF;
     font-family: DM Sans;
     font-size: 1.75rem;
@@ -69,11 +71,13 @@
 @media screen and (min-width: 768px) {
 .container {
     max-width: 768px;
-    /* padding-left: 32px;
-    padding-right: 32px; */
+    padding-left: 32px;
+    padding-right: 32px;
     }
 
 .aboutus-title {
+    width: 196px;
+    height: 54px;
     /* color: #FFF;
     font-family: DM Sans; */
     font-size: 3rem;
@@ -120,8 +124,8 @@
 @media screen and (min-width: 1280px) {
 .container {
     max-width: 1280px;
-    /* padding-left: 100px;
-    padding-right: 100px; */
+    padding-left: 100px;
+    padding-right: 100px;
     } 
 
 .aboutus-title {}
