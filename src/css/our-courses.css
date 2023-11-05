@@ -8,8 +8,9 @@ ol {
 }
 
 .courses {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .courses-wrap {
   display: flex;
@@ -94,8 +95,7 @@ ol {
 
 @media screen and (min-width: 768px) {
   .courses {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .courses-container {
     max-width: 704px;
@@ -120,8 +120,7 @@ ol {
 
 @media screen and (min-width: 1280px) {
   .courses {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
   .courses-container {
     max-width: 1081px;
