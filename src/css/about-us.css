@@ -1,9 +1,9 @@
-ul {
+/* ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
-}
+} */
 
 /** --------------------MOBILE------------------- */
 
@@ -24,13 +24,15 @@ ul {
     height: 32px;
     color: #FFF;
     font-family: DM Sans;
-    font-size: 1.75rem;
+    font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.14rem;
     /* 114.286% */
     letter-spacing: -0.07rem;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
+    display: table-cell;
+        vertical-align: middle;
 }
 
 .aboutus-title-second {
@@ -42,6 +44,7 @@ ul {
     height: 209px; 
     border-radius: 1000px; 
     angle: 90 deg;
+    margin-top: 40px;
     margin-bottom: 40px;
     width: 100vw;
 }
@@ -82,13 +85,13 @@ ul {
     height: 54px;
     /* color: #FFF;
     font-family: DM Sans; */
-    font-size: 3rem;
+    font-size: 48px;
     /* font-style: normal;
     font-weight: 500; */
     line-height: 1.13rem;
     /* 112.5% */
     letter-spacing: -0.12rem;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .aboutus-img {
@@ -96,6 +99,7 @@ ul {
     height: 340px; 
     border-radius: 1000px; 
     angle: 0 deg;
+    margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
     /* width: 100vw; */
