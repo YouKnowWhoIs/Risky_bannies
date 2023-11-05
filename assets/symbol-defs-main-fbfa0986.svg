@@ -6,9 +6,8 @@
 <symbol id="icon-star-color-main" viewBox="0 0 32 32">
 <path fill="#bea69e" style="fill: var(--color2, #bea69e); stroke: var(--color2, #bea69e)" stroke="#bea69e" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M16 4l3.708 7.899 8.292 1.274-6 6.145 1.416 8.681-7.416-4.101-7.416 4.101 1.416-8.681-6-6.145 8.292-1.274 3.708-7.899z"></path>
 </symbol>
-<symbol id="icon-arrow-main" viewBox="0 0 32 32">
-<path fill="none" stroke="#777" style="stroke: var(--color3, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
-<path fill="none" stroke="#777" style="stroke: var(--color3, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
+<symbol id="icon-arrow-main" viewBox="0 0 34 32">
+<path d="M16.127 6.678l11.784-0.368-2.408 11.541-3.876-4.619-16.127 13.532-1.624-1.935 16.127-13.532-3.876-4.619z"></path>
 </symbol>
 <symbol id="icon-logo" viewBox="0 0 203 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M16.534 17.72h-11.202v10.588h-5.332v-25.108h18.146v4.386h-12.813v5.71h11.202v4.424z"></path>
