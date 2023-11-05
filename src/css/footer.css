@@ -184,7 +184,7 @@ input:focus {
 }
 
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 375px) {
     .footer-container {
         width: auto;
     }
