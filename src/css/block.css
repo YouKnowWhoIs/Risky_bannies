@@ -1,6 +1,10 @@
 .block {
+  padding-bottom: 80px;
+}
+
+.block-border {
   padding: 20px 0;
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-left: none;
@@ -29,19 +33,23 @@
   color: #fff;
 }
 
-@media (min-width: 375px) {
-  .block {
+@media screen and (min-width: 375px) {
+  .block-border {
     padding: 20px 0;
-    width: 375px;
+    width: 100%;
     margin: 0 auto;
   }
 }
 
-@media (min-width: 768px) {
-  .block {
+@media screen and (min-width: 768px) {
+  .block-border {
     padding: 24px 0;
-    width: 768px;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .block {
+    padding-bottom: 100px;
   }
 
   .block-go {
@@ -51,11 +59,15 @@
   }
 }
 
-@media ((min-width: 1280px) and (max-width: 1439px)) {
-  .block {
+@media screen and (min-width: 1280px) {
+  .block-border {
     padding: 24px 0;
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .block {
+    padding-bottom: 150px;
   }
 
   .block-go {
@@ -65,11 +77,15 @@
   }
 }
 
-@media (min-width: 1440px) {
-  .block {
+@media screen and (min-width: 1440px) {
+  .block-border {
     padding: 24px 0;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .block {
+    padding-bottom: 150px;
   }
 
   .block-go {
