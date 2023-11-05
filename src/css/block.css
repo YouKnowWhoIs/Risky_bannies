@@ -5,9 +5,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-left: none;
   border-right: none;
-
   position: relative;
-  width: 588px;
 }
 
 .block-go {
@@ -31,7 +29,7 @@
   color: #fff;
 }
 
-@media screen and (min-width: 375px) {
+@media (min-width: 375px) {
   .block {
     padding: 20px 0;
     width: 375px;
@@ -39,7 +37,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .block {
     padding: 24px 0;
     width: 768px;
@@ -53,7 +51,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media ((min-width: 1280px) and (max-width: 1439px)) {
   .block {
     padding: 24px 0;
     width: 1280px;
@@ -67,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
   .block {
     padding: 24px 0;
     width: 1440px;
