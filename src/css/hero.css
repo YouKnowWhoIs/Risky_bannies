@@ -1,5 +1,4 @@
 .section-one {
-    /* margin: 0 auto; */
     padding: 20px 20px 0 20px;
     padding-bottom: 80px;
     background-image: url('../img/header/Graphic-mobail.png');
@@ -119,11 +118,10 @@ picture {
 
     /*section one*/  
 
-    .container {
+    .container-header {
         max-width: 704px;
     }
     .section-one {
-        /* max-width: 704px; */
         padding-top: 40px;
         padding-bottom: 100px;
         background-image: url('../img/header/Graphic-tablet.png');
@@ -172,13 +170,12 @@ picture {
 
 @media ((min-width: 1280px) and (max-width: 1439px)) {
 
-    .container {
+    .container-header {
         max-width: 1080px;
     }
     .section-one {
         padding-top: 80px;
         padding-bottom: 150px;
-        /* max-width: 1080px; */
         background-image: url('../img/header/Graphic-desctop.png');
     }
     .section-one {
@@ -236,18 +233,14 @@ picture {
 
 @media (min-width: 1440px) {
 
-    .container {
+    .container-header {
         max-width: 1240px;
     }
     .section-one {
-        /* margin: 0 auto; */
         padding-top: 80px;
         padding-bottom: 150px;
         background-image: url('../img/header/Graphic-desctop.png');
     }
-    /* .section-one {
-        max-width: 1240px;
-    } */
     .main-title {
         color: #FFF;
         font-family: DM Sans;
