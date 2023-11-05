@@ -24,7 +24,7 @@
 }
 .header {
     padding: 20px 20px 0 20px;
-    background-image: url('../img/header/Graphic-mobail.png');
+    background-image: url('/img/header/Graphic-mobail.png');
     background-repeat: repeat;
     background-position: center;
 }
@@ -117,7 +117,7 @@
 
     .header {
         display: flex;
-        background-image: url('../img/header/Graphic-tablet.png');
+        background-image: url('/img/header/Graphic-tablet.png');
         margin: 0 auto;
     }
     .navigation-header {
@@ -157,7 +157,7 @@
     }
     .header {
         display: flex;
-        background-image: url('../img/header/Graphic-desctop.png');
+        background-image: url('/img/header/Graphic-desctop.png');
         margin: 0 auto;
     }
     .box-header {
@@ -212,7 +212,7 @@
     }
     .header {
         display: flex;
-        background-image: url('../img/header/Graphic-desctop.png');
+        background-image: url('/img/header/Graphic-desctop.png');
         margin: 0 auto;
     }
     .box-header {
