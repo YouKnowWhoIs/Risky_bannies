@@ -29,7 +29,6 @@
   width: 335px;
   height: 209px;
   border-radius: 1000px;
-  angle: 90 deg;
   margin-top: 40px;
   margin-bottom: 40px;
   width: 100vw;
@@ -98,9 +97,6 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 150px;
-  }
-
-  .aboutus-title {
   }
 
   .aboutus-desktop {
