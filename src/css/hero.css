@@ -119,9 +119,11 @@ picture {
     /*section one*/  
 
     .container-header {
-        max-width: 704px;
+        max-width: 768px;
     }
     .section-one {
+        padding-left: 32px;
+        padding-right: 32px;
         padding-top: 40px;
         padding-bottom: 100px;
         background-image: url('../img/header/Graphic-tablet.png');
@@ -237,6 +239,8 @@ picture {
         max-width: 1240px;
     }
     .section-one {
+        padding-left: 100px;
+        padding-right: 100px;
         padding-top: 80px;
         padding-bottom: 150px;
         background-image: url('../img/header/Graphic-desctop.png');
