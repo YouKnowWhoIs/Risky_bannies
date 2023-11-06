@@ -9,6 +9,11 @@
 .title-item {
   color: #bea69e;
 }
+
+.our-mentors{
+  margin-bottom: 80px;
+}
+
 .mentors-list {
   display: flex;
   flex-direction: column;
@@ -89,6 +94,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 32px;
   }
   .mentors-title {
     font-size: 48px;
