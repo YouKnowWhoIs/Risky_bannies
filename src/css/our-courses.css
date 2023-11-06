@@ -104,6 +104,7 @@ ol {
   }
   .courses-container {
     max-width: 768px;
+    padding: 0 32px;
   }
   .courses-wrap {
     gap: 58px;
