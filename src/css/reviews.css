@@ -105,7 +105,7 @@ ul {
   max-width: 282px;
 }
 
-.reviews-item2 {
+.reviews-item-two {
   display: none;
 }
 
@@ -172,7 +172,7 @@ ul {
     padding-right: 100px;
   }
 
-  .reviews-item2 {
+  .reviews-item-two {
     display: block;
   }
 
