@@ -9,6 +9,11 @@
 .title-item {
   color: #bea69e;
 }
+
+.our-mentors{
+  margin-bottom: 80px;
+}
+
 .mentors-list {
   display: flex;
   flex-direction: column;

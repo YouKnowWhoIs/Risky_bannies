@@ -2,6 +2,7 @@
 .courses-container {
   width: 100%;
   max-width: 375px;
+  
 }
 
 
@@ -99,6 +100,7 @@ ol {
 @media screen and (min-width: 768px) {
   .courses {
     padding-bottom: 100px;
+    
   }
   .courses-container {
     max-width: 768px;
