@@ -46,8 +46,9 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    padding: 0 20px;
+  .container-our-mentors {
+    padding: 0 20px 80px 20px;
+    margin: 0 auto;
   }
   .mentors-title {
     color: #fff;
@@ -92,10 +93,12 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .container-our-mentors {
+    padding: 0 32px 100px 32px;
     max-width: 768px;
-    padding: 0 32px;
+    margin: 0 auto;
   }
+
   .mentors-title {
     font-size: 48px;
     line-height: 1.15;
@@ -120,12 +123,22 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1080px;
-    padding: 0;
+  .container-our-mentors {
+    padding: 0 100px 150px 100px;
+    max-width: 1280px;
+    margin: 0 auto;
   }
+
   .mentors-list {
     flex-wrap: nowrap;
     gap: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-our-mentors {
+    padding: 0 185px 150px 185px;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }

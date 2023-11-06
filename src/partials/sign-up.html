@@ -1,51 +1,68 @@
-<body>
-    <main>
-        <section class="sign-up-section" id="section-sign-up"></section>
-        <div class="container-sign-up">
-            <div class="sign-up-wrap">
+<section class="sign-up-section" id="section-sign-up"></section>
+<div class="container-sign-up">
+  <div class="sign-up-wrap">
+    <form class="sign-up-form">
+      <h3 class="sign-up-title">Sign <span class="sign-up-span">Up</span></h3>
+      <p class="sign-up-descr">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <input
+        type="text"
+        name="sign-up-name"
+        id="sign-up-name"
+        class="sign-up-input"
+        placeholder="Enter your name"
+      />
 
-                <form class="sign-up-form">
-                    <h3 class="sign-up-title">Sign <span class="sign-up-span">Up</span></h3>
-                    <p class="sign-up-descr">Please use the form below to contact us. Enter your name, email, and
-                        message and we'll get back to you shortly.</p>
-                    <input type="text" name="sign-up-name" id="sign-up-name" class="sign-up-input"
-                        placeholder="Enter your name">
+      <input
+        type="text"
+        name="sign-up-email"
+        id="sign-up-email"
+        class="sign-up-input"
+        placeholder="Enter your email"
+      />
 
-                    <input type="text" name="sign-up-email" id="sign-up-email" class="sign-up-input"
-                        placeholder="Enter your email">
+      <textarea
+        name="sign-up-text"
+        id="sign-up-text"
+        cols="30"
+        rows="10"
+        class="sign-up-message"
+        placeholder="Message"
+      ></textarea>
 
-                    <textarea name="sign-up-text" id="sign-up-text" cols="30" rows="10" class="sign-up-message"
-                        placeholder="Message"></textarea>
+      <button type="submit" class="sign-up-btn">Send</button>
 
-                    <button type="submit" class="sign-up-btn">Send</button>
-
-                    <p class="private-policy">
-                        By clicking on “Send” button, you agree to our <a href="" class="private-policy-link">Privacy
-                            Policy</a>, and allow Promodo to use this information for marketing purposes.
-                    </p>
-                </form>
-                <div class="img-wrap">
-                    <div class="img-container">
-                        <div class="photoaparat-wrapper">
-                            <img srcset="./img/main/camera.png 1x, ./img/main/camera@2x.png 2x"
-                            src="./img/main/camera.png" alt="" class="camera" width="240" height="296">
-                        </div>
-                        <div class="lens-wrapper">
-                             
-                            <img srcset="./img/main/objectyw.png 1x, ./img/main/objectyw@2x.png 2x"
-                            src="./img/main/objectyw.png" alt="camera" width="150px" height="142px" class="lens">
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
+      <p class="private-policy">
+        By clicking on “Send” button, you agree to our
+        <a href="" class="private-policy-link">Privacy Policy</a>, and allow
+        Promodo to use this information for marketing purposes.
+      </p>
+    </form>
+    <div class="img-wrap">
+      <div class="img-container">
+        <div class="photoaparat-wrapper">
+          <img
+            srcset="./img/main/camera.png 1x, ./img/main/camera@2x.png 2x"
+            src="./img/main/camera.png"
+            alt=""
+            class="camera"
+            width="240"
+            height="296"
+          />
         </div>
-
-    </main>
-
-</body>
+        <div class="lens-wrapper">
+          <img
+            srcset="./img/main/objectyw.png 1x, ./img/main/objectyw@2x.png 2x"
+            src="./img/main/objectyw.png"
+            alt="camera"
+            width="150px"
+            height="142px"
+            class="lens"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
