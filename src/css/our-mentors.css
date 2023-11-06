@@ -88,7 +88,7 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 768px;
   }
   .mentors-title {
     font-size: 48px;
