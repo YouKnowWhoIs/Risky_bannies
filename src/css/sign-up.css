@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 768px) {
   .container-sign-up {
-    max-width: 800px;
+    max-width: 768px;
     padding-left: 32px;
     padding-bottom: 100px;
   }
