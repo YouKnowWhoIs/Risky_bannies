@@ -191,18 +191,3 @@ ul {
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .reviews-container {
-    max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .reviews-item {
-    width: 610px;
-  }
-
-  .reviews-item-review {
-    max-width: 540px;
-  }
-}
