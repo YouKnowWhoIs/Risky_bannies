@@ -1,15 +1,10 @@
 .section-one {
-    padding: 20px 20px 0 20px;
-    padding-bottom: 80px;
-    background-image: url('../img/header/Graphic-mobail.png');
+    padding: 20px 0 80px 0;
+    background-image: url('/img/header/Graphic-mobail.png');
     background-repeat: repeat;
     background-position: center;
 }
-.box-section-one {
-    border-radius: 30px;
-    background-color: #1D1D1D;
-    padding-top: 40px;
-}
+
 .stars-hero {
     fill: #BEA69E;
 }
@@ -32,6 +27,14 @@
     letter-spacing: -0.8px;
     margin-bottom: 0;
     margin-top: 20px;
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
 }
 .list-students-section-one {
     display: flex;
@@ -114,22 +117,30 @@ picture {
     justify-content: center;
     width: 100%;
 }
-@media ((min-width: 768px) and (max-width: 1279px)) {
+
+/*  */
+.box-sec-one {
+    border-radius: 30px;
+    background-color: #1D1D1D;
+    padding: 40px 20px 0 20px;
+}
+/*  */
+
+@media ((min-width: 768px) and (max-width: 1280px)) {
 
     /*section one*/  
 
     .container-header {
         max-width: 768px;
+        padding: 0 32px;
     }
     .section-one {
-        padding-left: 32px;
-        padding-right: 32px;
         padding-top: 40px;
         padding-bottom: 100px;
-        background-image: url('../img/header/Graphic-tablet.png');
+        background-image: url('/img/header/Graphic-tablet.png');
     }
     .main-title {
-        width: calc((100% - 91px)/1);
+        width: calc((100% - 123px)/1);
         font-size: 60px;
         font-weight: 500;
         line-height: 64px; /* 106.667% */
@@ -143,11 +154,11 @@ picture {
         letter-spacing: -0.8px;
         font-style: italic;
     }
-    .box-section-one {
+    .box-sec-one {
         padding: 64px 32px 0 32px;
     }
     .paragraf-section-one {
-        width: calc((100% - 215px)/1);
+        width: 418px;
     }
     .students-and-reviews {
         display: flex;
@@ -166,6 +177,7 @@ picture {
     .image-photographer {
         width: calc((100% - 248px)/1);
         margin-bottom: 0;
+        margin-top: 40px;
     }
 
 }
@@ -173,12 +185,13 @@ picture {
 @media ((min-width: 1280px) and (max-width: 1439px)) {
 
     .container-header {
-        max-width: 1080px;
+        max-width: 1280px;
+        padding: 0 100px;
     }
     .section-one {
         padding-top: 80px;
         padding-bottom: 150px;
-        background-image: url('../img/header/Graphic-desctop.png');
+        background-image: url('/img/header/Graphic-desctop.png');
     }
     .section-one {
         padding: 0 auto;
@@ -201,8 +214,9 @@ picture {
         letter-spacing: -0.8px;
         font-style: italic;
     }
-    .box-section-one {
+    .box-sec-one {
         padding: 80px 50px 0 50px;
+        display: flex;
     }
     .paragraf-section-one {
         width: 418px;
@@ -236,14 +250,13 @@ picture {
 @media (min-width: 1440px) {
 
     .container-header {
-        max-width: 1240px;
+        max-width: 1440px;
+        padding: 0 100px;
     }
     .section-one {
-        padding-left: 100px;
-        padding-right: 100px;
         padding-top: 80px;
         padding-bottom: 150px;
-        background-image: url('../img/header/Graphic-desctop.png');
+        background-image: url('/img/header/Graphic-desctop.png');
     }
     .main-title {
         color: #FFF;
@@ -266,8 +279,9 @@ picture {
         line-height: 68px;
         letter-spacing: -2.56px;
     }
-    .box-section-one {
+    .box-sec-one {
         padding: 80px 100px 0 50px;
+        display: flex;
     }
     .paragraf-section-one {
         width: 418px;
