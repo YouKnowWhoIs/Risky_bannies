@@ -1,4 +1,9 @@
 /* --- Our Courses // Start // --- */
+.courses-container {
+  width: 100%;
+  max-width: 375px;
+}
+
 
 ol {
   margin-top: 0;
@@ -96,7 +101,7 @@ ol {
     padding-bottom: 100px;
   }
   .courses-container {
-    max-width: 704px;
+    max-width: 768px;
   }
   .courses-wrap {
     gap: 58px;
@@ -121,7 +126,8 @@ ol {
     padding-bottom: 150px;
   }
   .courses-container {
-    max-width: 1081px;
+    max-width: 1280px;
+    
   }
   .courses-text {
     max-width: 400px;

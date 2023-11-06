@@ -97,8 +97,10 @@
 {
      /*header*/
 
+     
+
     .container-header {
-        max-width: 704px;
+        max-width: 768px;
     }
     .circle {
         display: none;
