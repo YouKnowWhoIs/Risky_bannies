@@ -1,0 +1,123 @@
+.container {
+  max-width: 375px;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+.aboutus {
+}
+.aboutus-title {
+  width: 114px;
+  height: 32px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14rem;
+  letter-spacing: -0.07rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+.aboutus-title-second {
+  color: #bea69e;
+}
+.aboutus-img {
+  width: 335px;
+  height: 209px;
+  border-radius: 1000px;
+  angle: 90 deg;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100vw;
+}
+.aboutus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aboutus-item {
+}
+.aboutus-item-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29rem;
+  /* 128.571% */
+  letter-spacing: -0.0175rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 100px;
+  }
+  .aboutus-title {
+    width: 196px;
+    height: 54px;
+    font-size: 48px;
+    line-height: 1.13rem;
+    letter-spacing: -0.12rem;
+  }
+  .aboutus-img {
+    width: 704px;
+    height: 340px;
+    border-radius: 1000px;
+    angle: 0 deg;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  .aboutus-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .aboutus-item-text {
+    width: 280px;
+    height: 240px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.02rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+  }
+  .aboutus-title {
+  }
+  .aboutus-desktop {
+    display: flex;
+  }
+  .aboutus-img {
+    width: 488px;
+    height: 260px;
+    margin-bottom: 0px;
+    padding-right: 40px;
+  }
+  .aboutus-item-text {
+    width: 268px;
+    height: 260px;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.02rem;
+  }
+  .aboutus-list {
+    gap: 20px;
+  }
+}
