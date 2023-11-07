@@ -1,96 +1,70 @@
-.block {
-  padding-bottom: 80px;
-}
-
-.block-border {
+.merquee-inner {
+  overflow: hidden;
+  white-space: nowrap;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px 0;
-  width: 100%;
-  margin: 0 auto;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-left: none;
-  border-right: none;
-  position: relative;
 }
-
 .block-go {
   color: #bea69e;
   font-size: 28px;
-  line-height: 1.14; /* 114.286% */
-  letter-spacing: -0.56px;
-  text-transform: uppercase;
-}
-
-.block-p {
-  color: #bea69e;
-  font-size: 28px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 1.14; /* 114.286% */
+  line-height: 32px;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  animation: merqueeinner 8s linear infinite;
+}
+@keyframes merqueeinner {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .block-color {
   color: #fff;
 }
 
-@media screen and (min-width: 375px) {
-  .block-border {
-    padding: 20px 0;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .block-border {
-    padding: 24px 0;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .block {
-    padding-bottom: 100px;
-  }
-
   .block-go {
     font-size: 40px;
-    line-height: 1.25; /* 125% */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
     letter-spacing: -0.8px;
+    text-transform: uppercase;
+    animation: merqueeinner 12s linear infinite;
+  }
+  @keyframes merqueeinner {
+    0% {
+      transform: translateX(120%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .block-border {
-    padding: 24px 0;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .block {
-    padding-bottom: 150px;
-  }
-
   .block-go {
     font-size: 59px;
-    line-height: 1.08; /* 108.475% */
+    line-height: 64px;
     letter-spacing: -1.18px;
+    text-transform: uppercase;
+    animation: merqueeinner 20s linear infinite;
   }
-}
-
-@media screen and (min-width: 1440px) {
-  .block-border {
-    padding: 24px 0;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .block {
-    padding-bottom: 150px;
-  }
-
-  .block-go {
-    font-size: 59px;
-    line-height: 1.08; /* 108.475% */
-    letter-spacing: -1.18px;
+  @keyframes merqueeinner {
+    0% {
+      transform: translateX(180%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
