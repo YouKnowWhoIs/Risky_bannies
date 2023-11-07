@@ -32,14 +32,14 @@
 }
 
 @media (min-width: 768px) {
-  .run-line-title {
+  .block-go {
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: -0.8px;
     text-transform: uppercase;
-    animation: merqueeinner 15s linear infinite;
+    animation: merqueeinner 12s linear infinite;
   }
 }
 @keyframes merqueeinner {
@@ -52,12 +52,12 @@
 }
 
 @media (min-width: 1280px) {
-  .run-line-title {
+  .block-go {
     font-size: 59px;
     line-height: 64px;
     letter-spacing: -1.18px;
     text-transform: uppercase;
-    animation: merqueeinner 20s linear infinite;
+    animation: merqueeinner 17s linear infinite;
   }
   @keyframes merqueeinner {
     0% {
