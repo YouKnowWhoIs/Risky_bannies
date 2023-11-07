@@ -40,6 +40,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: #121212;
   margin-bottom: 8px;
+  color: #fff;
   padding-top: 14px;
   padding-bottom: 14px;
   height: 46px;
@@ -65,6 +66,7 @@
   background-color: #121212;
   margin-bottom: 40px;
   width: 100%;
+  color: #fff;
   resize: none;
   opacity: 0.7;
 }
@@ -189,6 +191,7 @@
     margin-bottom: 14px;
     height: 60px;
     width: 480px;
+    color: #fff;
   }
 
   .sign-up-message {
