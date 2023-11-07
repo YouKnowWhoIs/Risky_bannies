@@ -416,14 +416,18 @@
         id="sign-up-name"
         class="sign-up-input"
         placeholder="Enter your name"
+        required
+        pattern="[A-Za-z\s]{3,}"
       />
 
       <input
-        type="text"
+        type="email"
         name="sign-up-email"
         id="sign-up-email"
         class="sign-up-input"
         placeholder="Enter your email"
+        required
+        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
       />
 
       <textarea
@@ -603,10 +607,11 @@
           <use href="/Risky_bannies/assets/symbol-defs-header-92e78b2d.svg#focus-frame"></use>
         </svg>
       </a>
-
-      <a class="link-f" href="tel:+380665438912" id="contacts"
-        >UK: +38 066 543 8912</a
-      >
+      <address>
+        <a class="link-f" href="tel:+380665438912" id="contacts"
+          >UK: +38 066 543 8912</a
+        >
+      </address>
       <p>Ukraine, Kyiv</p>
     </div>
 
