@@ -172,6 +172,7 @@
         line-height: normal;
         text-transform: uppercase;
         display: flex;
+        padding: 21px 0;
     }
     .navigation-header {
         display: flex;
