@@ -176,6 +176,12 @@ ul {
     display: block;
   }
 
+  .reviews-div-ul-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
   .reviews-list {
     display: flex;
     gap: 20px;
@@ -190,4 +196,3 @@ ul {
     max-width: 468px;
   }
 }
-
