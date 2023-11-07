@@ -182,6 +182,7 @@ picture {
 }
 
 @media ((min-width: 1280px) and (max-width: 1440px)) {
+@media ((min-width: 1280px) and (max-width: 1440px)) {
 
     .container-header {
         max-width: 1280px;
