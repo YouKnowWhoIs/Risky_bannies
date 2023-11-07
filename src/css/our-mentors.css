@@ -10,8 +10,10 @@
   color: #bea69e;
 }
 
-.our-mentors{
-  margin-bottom: 80px;
+.container-our-mentors {
+  padding: 0 20px 80px 20px;
+  margin: 0 auto;
+  max-width: 375px;
 }
 
 .mentors-list {
@@ -45,10 +47,21 @@
   letter-spacing: -0.02em;
 }
 
+@media screen and (min-width: 320px) {
+.container-our-mentors {
+    padding: 0 20px 80px 20px;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+}
+
+
 @media screen and (min-width: 375px) {
   .container-our-mentors {
     padding: 0 20px 80px 20px;
     margin: 0 auto;
+    max-width: 375px;
   }
   .mentors-title {
     color: #fff;
