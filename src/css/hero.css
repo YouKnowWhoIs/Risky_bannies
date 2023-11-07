@@ -175,14 +175,13 @@ picture {
         align-items: flex-start;
     }
     .image-photographer {
-        width: calc((100% - 248px)/1);
         margin-bottom: 0;
         margin-top: 40px;
     }
 
 }
 
-@media ((min-width: 1280px) and (max-width: 1439px)) {
+@media ((min-width: 1280px) and (max-width: 1440px)) {
 
     .container-header {
         max-width: 1280px;
