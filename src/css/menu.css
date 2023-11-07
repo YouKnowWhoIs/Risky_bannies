@@ -118,9 +118,3 @@ a {
     height: 480px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .mob-menu {
-    display: none;
-  }
-}
