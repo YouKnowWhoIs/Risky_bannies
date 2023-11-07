@@ -3,7 +3,6 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 80px;
-  padding-top: 80px;
   margin: 0 auto;
 }
 
@@ -138,7 +137,6 @@
     max-width: 768px;
     padding-left: 32px;
     padding-bottom: 100px;
-    padding-top: 100px;
   }
 
   .sign-up-btn {
@@ -234,7 +232,6 @@
     padding-right: 100px;
     margin: 0 auto;
     padding-bottom: 150px;
-    padding-top: 150px;
   }
 
   .sign-up-title {
