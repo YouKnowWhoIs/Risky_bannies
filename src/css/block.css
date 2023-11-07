@@ -16,7 +16,7 @@
   text-align: center;
   display: inline-block;
   margin: 0;
-  animation: merqueeinner 8s linear infinite;
+  animation: merqueeinner 10s linear infinite;
 }
 @keyframes merqueeinner {
   0% {
@@ -31,28 +31,28 @@
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
-  .block-go {
+@media (min-width: 768px) {
+  .run-line-title {
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: -0.8px;
     text-transform: uppercase;
-    animation: merqueeinner 12s linear infinite;
+    animation: merqueeinner 15s linear infinite;
   }
-  @keyframes merqueeinner {
-    0% {
-      transform: translateX(120%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+}
+@keyframes merqueeinner {
+  0% {
+    transform: translateX(120%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .block-go {
+@media (min-width: 1280px) {
+  .run-line-title {
     font-size: 59px;
     line-height: 64px;
     letter-spacing: -1.18px;
