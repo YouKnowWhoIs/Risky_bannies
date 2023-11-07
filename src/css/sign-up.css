@@ -123,6 +123,7 @@
 @media screen and (min-width: 375px) {
   .private-policy {
     width: 335px;
+    letter-spacing: -0.01rem;
   }
 
   .img-wrap {
