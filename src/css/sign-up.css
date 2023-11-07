@@ -125,6 +125,7 @@
 @media screen and (min-width: 375px) {
   .private-policy {
     width: 335px;
+    letter-spacing: -0.01rem;
   }
 
   .img-wrap {
@@ -205,6 +206,7 @@
     height: 119px;
     resize: none;
     opacity: 0.7;
+    outline: none;
   }
 
   .sign-up-message::placeholder {
