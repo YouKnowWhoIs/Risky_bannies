@@ -4,6 +4,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 80px;
+  padding-top: 80px;
   margin: 0 auto;
 }
 
@@ -91,7 +92,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
   .container-about {
     max-width: 1280px;
     padding-left: 100px;
