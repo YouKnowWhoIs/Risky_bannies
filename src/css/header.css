@@ -15,7 +15,6 @@
     background: var(--black, #121212);
     width: 100%;
     padding: 0 20px;
-    height: 50px;
 }
 .box-header-main {
     display: flex;
@@ -49,6 +48,7 @@
 }
 .logo-header {
     display: flex;
+    padding: 14px 0;
 }
 .icon-header {
     fill: #BEA69E66;
