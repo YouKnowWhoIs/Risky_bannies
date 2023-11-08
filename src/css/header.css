@@ -130,6 +130,9 @@
         width: 504px;
         height: 100%;
     }
+    .logo-header {
+        padding: 0;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -189,6 +192,9 @@
     }
     .box-header-main {
         gap: 20px;
+    }
+    .logo-header {
+        padding: 0;
     }
 }
 /*
